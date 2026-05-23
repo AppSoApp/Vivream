@@ -21,7 +21,6 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - name: Publish vivream
-        run: npm publish --access public --provenance
-        working-directory: packages/cli
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
