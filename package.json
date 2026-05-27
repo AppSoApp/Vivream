@@ -1,0 +1,33 @@
+{
+  "name": "vivream",
+  "version": "0.2.1",
+  "description": "Brain-dump in. Blueprint out. — Local AI workbench powered by your own Claude / Codex / Agy CLI",
+  "keywords": ["ai", "claude", "brain-dump", "workbench", "local-first", "mindmap", "prompt"],
+  "homepage": "https://github.com/AppSoApp/Vivream",
+  "bugs": {
+    "url": "https://github.com/AppSoApp/Vivream/issues",
+    "email": "appsoapplication@gmail.com"
+  },
+  "author": {
+    "name": "AppSoApp",
+    "email": "appsoapplication@gmail.com"
+  },
+  "license": "MIT",
+  "bin": {
+    "vivream": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "vivream-server.tar.gz"
+  ],
+  "dependencies": {
+    "tar": "^6"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AppSoApp/Vivream.git"
+  }
+}
